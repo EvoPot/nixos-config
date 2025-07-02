@@ -15,6 +15,11 @@
           command = "udiskie &";
         }
       ];
+      bars = [
+        {
+          position = "top";
+        }
+      ];
       
     };
   };

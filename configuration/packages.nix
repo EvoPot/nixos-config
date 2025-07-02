@@ -19,5 +19,6 @@
     clang-tools
     git
     libsecret
+    davinci-resolve
   ];
 }
