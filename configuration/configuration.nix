@@ -18,7 +18,6 @@ boot.loader.grub = {
 enable = true;
 efiSupport=true;
 efiInstallAsRemovable=true;
-useOsProber=true;
 device = "/dev/sda";
 };
 
