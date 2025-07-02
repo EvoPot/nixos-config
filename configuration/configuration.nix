@@ -12,9 +12,15 @@
       ./users/users.nix
     ];
 
-  boot.loader.grub.enable = true;
-  boot.loader.grub.device = "/dev/sda";
-  boot.loader.grub.useOSProber = true;
+
+
+boot.loader.grub = {
+enable = true;
+efiSupport=true;
+efiInstallAsRemovable=true;
+useOsProber=true;
+device = "/dev/sda";
+};
 
   programs.fish.enable = true;
   networking.hostName = "nixos";
